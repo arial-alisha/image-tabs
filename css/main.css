@@ -60,6 +60,7 @@ html {
     opacity: .2;
     transform: scale(.7) rotate(45deg);
   }
+
   100% {
     opacity: 1;
     transform: scale(1) rotate(45deg);
