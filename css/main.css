@@ -16,6 +16,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .tabs {
   margin: 0;
   padding: 0;
@@ -54,6 +55,7 @@ html {
 }
 
 @keyframes pulse {
+
   0% {
     opacity: .2;
     transform: scale(.7) rotate(45deg);
@@ -62,6 +64,7 @@ html {
     opacity: 1;
     transform: scale(1) rotate(45deg);
   }
+
 }
 
 .panel {
