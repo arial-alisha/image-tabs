@@ -16,62 +16,61 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-  .tabs {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-  }
+.tabs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
 
-  .tabs > li {
-    display: inline-block;
-  }
+.tabs > li {
+  display: inline-block;
+}
 
-  .tabs a {
-    display: inline-block;
-    background-color: #e2e2e2;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: all 500ms linear;
-    width: 18px;
-    height: 18px;
-    border: 3px solid grey;
-  }
+.tabs a {
+  display: inline-block;
+  background-color: #e2e2e2;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 500ms linear;
+  width: 18px;
+  height: 18px;
+  border: 3px solid grey;
+}
 
-  .tabs a:hover {
-    background-color: #000;
-    width: #fff;
-  }
+.tabs a:hover {
+  background-color: #000;
+}
 
-  .badge {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    top: -5px;
-    left: calc(50% - 5px);
-    transform: rotate(45deg);
-    animation: pulse 1s linear infinite alternate;
-  }
+.badge {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  top: -5px;
+  left: calc(50% - 5px);
+  transform: rotate(45deg);
+  animation: pulse 1s linear infinite alternate;
+}
 
-  @keyframes pulse {
-    0% {
-      opacity: .2;
-      transform: scale(.7) rotate(45deg);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) rotate(45deg);
-    }
+@keyframes pulse {
+  0% {
+    opacity: .2;
+    transform: scale(.7) rotate(45deg);
   }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(45deg);
+  }
+}
 
-  .panel {
-    display: none;
-  }
+.panel {
+  display: none;
+}
 
-  .panel:target {
-    display: block;
-  }
+.panel:target {
+  display: block;
+}
 
 img {
   width: 100%;
